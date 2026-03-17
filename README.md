@@ -1,6 +1,7 @@
 # Hello FastAPI 프로젝트
 
 이 프로젝트는 FastAPI를 사용하여 기본적인 웹 서버를 만드는 예제입니다.
+Uvicorn으로 http요청 처리 및 비즈니스 처리
 
 ## 설치
 
