@@ -75,7 +75,7 @@ async def dump_beaty():
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        cursor.execute("SELECT id, color, time FROM my_beaty ORDER BY id DESC LIMIT 10")
+        cursor.execute("SELECT id, color, time FROM my_beaty ORDER BY id DESC LIMIT 20")
         rows = cursor.fetchall()
         cursor.close()
         conn.close()
